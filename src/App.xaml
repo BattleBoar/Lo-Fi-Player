@@ -1,0 +1,13 @@
+﻿<Application x:Class="LofiPlayer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="ComboBox">
+            <Setter Property="Background" Value="#20FFFFFF"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+    </Application.Resources>
+</Application>
